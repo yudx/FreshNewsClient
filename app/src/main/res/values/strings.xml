@@ -1,6 +1,12 @@
 <resources>
-    <string name="app_name">FreshNews</string>
+    <string name="app_name">FreshNew</string>
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_my_test">MyTest</string>
+
+    <string name="personal_default_login">请先登录</string>
 </resources>

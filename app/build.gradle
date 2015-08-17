@@ -1,11 +1,15 @@
 apply plugin: 'com.android.application'
-
+repositories {
+    maven {
+        url "https://jitpack.io"
+    }
+}
 android {
     compileSdkVersion 22
     buildToolsVersion "23.0.0 rc3"
 
     defaultConfig {
-        applicationId "com.tay.news.freshnews"
+        applicationId "com.tay.news"
         minSdkVersion 15
         targetSdkVersion 22
         versionCode 1
@@ -21,5 +25,10 @@ android {
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile 'com.github.ozodrukh:CircularReveal:1.0.4'
+    compile 'com.android.support:support-annotations:22.2.1'
+    compile 'com.nineoldandroids:library:2.4.0'
     compile 'com.android.support:appcompat-v7:22.2.1'
+    compile 'com.android.support:support-v4:22.2.1'
+    compile 'com.facebook.fresco:fresco:0.5.3+'
 }
