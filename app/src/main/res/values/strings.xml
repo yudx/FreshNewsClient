@@ -9,4 +9,6 @@
     <string name="title_activity_my_test">MyTest</string>
 
     <string name="personal_default_login">请先登录</string>
+    <string name="hint_enter_username">请输入用户名</string>
+    <string name="hint_enter_password">请输入密码</string>
 </resources>
