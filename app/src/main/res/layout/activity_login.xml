@@ -1,25 +1,23 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
     tools:context="com.tay.news.LoginActivity"
-    android:gravity="bottom"
     android:padding="@dimen/dip_20"
-    android:layout_height="match_parent">
+    android:gravity="center"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
 
-    <EditText
+    <TextView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:inputType="textPersonName"
-        android:background="@drawable/edittext_selector"
-        android:hint="@string/hint_enter_username"
-        android:id="@+id/et_username" />
+        android:layout_height="50dp"
+        android:text="@string/card_register"
+        android:gravity="center"
+        android:id="@+id/change" />
 
-    <EditText
+    <FrameLayout
+        android:id="@+id/container"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/et_username"
-        android:layout_marginTop="@dimen/dip_20"
-        android:inputType="textPassword"
-        android:background="@drawable/edittext_selector"
-        android:hint="@string/hint_enter_password"
-        android:id="@+id/et_password" />
-</RelativeLayout>
+        android:layout_height="wrap_content">
+    </FrameLayout>
+
+</LinearLayout>
