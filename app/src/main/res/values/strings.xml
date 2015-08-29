@@ -9,11 +9,12 @@
     <string name="title_activity_my_test">MyTest</string>
 
     <string name="personal_default_login">请先登录</string>
-    <string name="hint_enter_username">请输入用户名</string>
+    <string name="hint_enter_username">请输入手机号码</string>
     <string name="hint_enter_password">请输入密码</string>
     <string name="hint_enter_nickname">请输入昵称(可选)</string>
     <string name="button_login">登\t录</string>
     <string name="button_register">注\t册</string>
     <string name="card_login">返回登录</string>
     <string name="card_register">注册新账号</string>
+
 </resources>
