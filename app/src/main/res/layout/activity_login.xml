@@ -4,14 +4,14 @@
     tools:context="com.tay.news.LoginActivity"
     android:padding="@dimen/dip_20"
     android:layout_height="match_parent"
-    android:background="#ff9900"
+    android:background="@mipmap/land_page_bg"
     android:orientation="vertical">
 
     <FrameLayout
         android:id="@+id/container"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_centerInParent="true">
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
     </FrameLayout>
 
 </RelativeLayout>
