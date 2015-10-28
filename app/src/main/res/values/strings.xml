@@ -21,5 +21,6 @@
     <string name="title_cancel">取消</string>
     <string name="title_login">登录</string>
     <string name="title_register">创建账号</string>
+    <string name="title_activity_home">HomeActivity</string>
 
 </resources>
