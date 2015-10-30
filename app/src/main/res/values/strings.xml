@@ -23,4 +23,14 @@
     <string name="title_register">创建账号</string>
     <string name="title_activity_home">HomeActivity</string>
 
+    <!-- tab title -->
+    <string name="tab_home">首页</string>
+    <string name="tab_search">搜索</string>
+    <string name="tab_add">创建新消息</string>
+    <string name="tab_contact">联系人</string>
+    <string name="tab_personal">个人中心</string>
+    <string name="tab_manager">管理</string>
+    <string name="tab_more">更多</string>
+    <string name="tab_blank">欢迎</string>
+
 </resources>
